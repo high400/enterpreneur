@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://high400.github.io/enterpreneur",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.0"
   },
   "devDependencies": {},
   "scripts": {
-    "sass": "node-sass scss/ -o dist/css/ --recursive"
+    "sass": "node-sass scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Ashura",
   "license": "MIT"

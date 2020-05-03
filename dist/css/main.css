@@ -101,7 +101,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/Epicness.png);
+    background: url(../img/burn.png);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {

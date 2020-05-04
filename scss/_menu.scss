@@ -90,6 +90,8 @@
       width: 150px;
       height: 150px;
       background: url("../img/small.png");
+      background-position: center center;
+      background-repeat: no-repeat;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }

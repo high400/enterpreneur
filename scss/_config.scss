@@ -15,6 +15,8 @@ $background-opacity: 0.5;
       background: $home-image;
       background-attachment: fixed;
       background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
 
       &:after {
         content: "";
@@ -32,7 +34,7 @@ $background-opacity: 0.5;
 
 // Media Query Mixins
 @mixin mediaSm {
-  @media screen and (max-width: 500px) {
+  @media only screen and (max-width: 320px) {
     @content;
   }
 }

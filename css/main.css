@@ -53,9 +53,11 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
+      width: 150px;
+      height: 150px;
       background: url("../img/small.png");
+      background-position: center center;
+      background-repeat: no-repeat;
       border-radius: 50%;
       border: solid 3px #fff; }
   .menu .nav-item {

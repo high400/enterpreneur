@@ -103,7 +103,9 @@ body {
   body#bg-img {
     background: url(../img/Drawing_the_sword.jpg);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
     body#bg-img:after {
       content: "";
       position: absolute;
@@ -253,13 +255,15 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 320px) {
   main#home h1 {
     margin-top: 10vh; }
   .portrait {
     background: url("../img/small.png");
     width: 150px;
-    height: 150px; }
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center center; }
   .lg-heading {
     margin-top: 1rem;
     font-size: 5rem; }

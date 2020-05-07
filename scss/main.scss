@@ -15,6 +15,19 @@ body {
   line-height: 1.5;
 }
 
+//frame
+#frame {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  background: rgba(82, 83, 83, 0.5);
+
+  .text-tertiary {
+    color: #b4b1b1c4;
+  }
+}
+
 // Headings
 h1,
 h2,

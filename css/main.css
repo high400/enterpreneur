@@ -118,6 +118,15 @@ body {
       z-index: -1;
       background: rgba #4d4e4e86, 0.5; }
 
+#frame {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  background: rgba(82, 83, 83, 0.5); }
+  #frame .text-tertiary {
+    color: #b4b1b1c4; }
+
 h1,
 h2,
 h3 {

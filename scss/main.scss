@@ -59,7 +59,11 @@ header {
 }
 
 .text-secondary {
-  color: $secondary-color;
+  color: yellow;
+}
+
+.text {
+  color: rgb(23, 23, 221);
 }
 
 main {
@@ -154,7 +158,7 @@ main {
 
   div {
     font-size: 2rem;
-    border: 3px #fff solid;
+    border: 3px yellow solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     @include easeOut;
@@ -162,9 +166,9 @@ main {
     &:hover {
       padding: 0.5rem 1.5rem;
       background: $secondary-color;
-      color: set-text-color($secondary-color);
+      color: set-text-color($tertiary-color);
       span {
-        color: set-text-color($secondary-color);
+        color: set-text-color($tertiary-color);
       }
     }
   }

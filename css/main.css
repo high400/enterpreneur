@@ -154,7 +154,10 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #fff; }
+  color: yellow; }
+
+.text {
+  color: #1717dd; }
 
 main {
   padding: 4rem;
@@ -215,16 +218,16 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    border: 3px #fff solid;
+    border: 3px yellow solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
       background: #fff;
-      color: set-text-color(#fff); }
+      color: set-text-color(#6d6c6c); }
       .boxes div:hover span {
-        color: set-text-color(#fff); }
+        color: set-text-color(#6d6c6c); }
 
 .btn, .btn-dark, .btn-light {
   display: block;

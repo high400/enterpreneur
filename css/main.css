@@ -103,7 +103,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/sekiro_1.jpg);
+    background: url(../img/night.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -187,6 +187,8 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+  .about-info .bio p {
+    color: #dc143c; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {

@@ -189,6 +189,8 @@ main {
     font-size: 1.5rem; }
   .about-info .bio p {
     color: #dc143c; }
+  .about-info bio h3 {
+    color: white; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {

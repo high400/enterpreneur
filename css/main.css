@@ -131,7 +131,8 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #fff; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
@@ -190,7 +191,7 @@ main {
   .about-info .bio p {
     color: #dc143c; }
   .about-info bio h3 {
-    color: white; }
+    color: #ff4933; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {

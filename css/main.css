@@ -103,7 +103,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/night.jpg);
+    background: url(../img/mountains.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400;
-  color: #fff; }
+  color: black; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
@@ -155,10 +155,10 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: yellow; }
+  color: #ffffff; }
 
 .text {
-  color: crimson; }
+  color: #000000; }
 
 main {
   padding: 4rem;
@@ -189,7 +189,7 @@ main {
     grid-area: bio;
     font-size: 1.5rem; }
   .about-info .bio p {
-    color: #dc143c; }
+    color: #ffffff; }
   .about-info bio h3 {
     color: #ff4933; }
   .about-info .job-1 {
@@ -223,7 +223,7 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    border: 3px yellow solid;
+    border: 3px white solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }

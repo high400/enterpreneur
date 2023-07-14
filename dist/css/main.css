@@ -103,7 +103,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/mountains.jpg);
+    background: url("https://images.wallpapersden.com/image/download/sekiro-shadows-die-twice-hd_bWpsaWyUmZqaraWkpJRmbWxprW5lZQ.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,7 +178,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio"
+ "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -270,7 +271,11 @@ main {
     width: 150px;
     height: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage"
+ "bio"
+ "job1"
+ "job2"
+ "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
